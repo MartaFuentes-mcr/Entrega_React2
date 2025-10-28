@@ -2,7 +2,8 @@
 
 Tienda online de vapeadores y accesorios desarrollada con **React**, **TypeScript** y **Next.js**. Proyecto académico que demuestra buenas prácticas de desarrollo frontend moderno, incluyendo gestión de estado, diseño responsive y experiencia de usuario intuitiva.
 
-<img width="1823" height="903" alt="holdex" src="https://github.com/user-attachments/assets/75148730-d399-4e1d-885c-f45571de5eb0" />
+<img width="1834" height="895" alt="ClearMint" src="https://github.com/user-attachments/assets/d5830d5d-10b7-4420-aca7-57305b5e0f9b" />
+
 
 
 ## 🚀 Características
