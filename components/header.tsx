@@ -15,9 +15,9 @@ export function Header({ cartItemsCount, onCartClick }: HeaderProps) {
       <div className="container mx-auto flex h-16 items-center justify-between px-4">
         <div className="flex items-center gap-2">
           <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-primary">
-            <span className="text-xl font-bold text-primary-foreground">V</span>
+            <span className="text-xl font-bold text-primary-foreground">CM</span>
           </div>
-          <span className="text-xl font-bold tracking-tight">Holdex</span>
+          <span className="text-xl font-bold tracking-tight">ClearMint</span>
         </div>
 
         <nav className="hidden md:flex items-center gap-6">
