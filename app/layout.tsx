@@ -7,7 +7,7 @@ const _geist = Geist({ subsets: ["latin"] });
 const _geistMono = Geist_Mono({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: 'Holdex',
+  title: 'ClearMint - Premium Vaping Products',
   description: 'Your one-stop shop for premium vaping products.',
   generator: 'Next.js',
 }
