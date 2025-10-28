@@ -17,7 +17,7 @@ Tienda online de vapeadores y accesorios desarrollada con **React**, **TypeScrip
 ## 🛠️ Tecnologías utilizadas
 
 - [Next.js 14](https://nextjs.org/) (App Router)
-- [React 18](https://react.dev/)
+- [React 19.2](https://react.dev/)
 - [TypeScript](https://www.typescriptlang.org/)
 - [Tailwind CSS](https://tailwindcss.com/)
 - [Lucide React](https://lucide.dev/) (iconos)
