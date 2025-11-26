@@ -1,0 +1,23 @@
+rules_version = '2';
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Reglas para productos (solo lectura pública)
+    match /products/{productId} {
+      allow read: if true;
+      allow write: if false; // Solo administradores pueden escribir
+    }
+    
+    // Reglas para pedidos (usuarios autenticados)
+    match /orders/{orderId} {
+      allow read: if request.auth != null && request.auth.uid == resource.data.userId;
+      allow create: if request.auth != null;
+      allow update, delete: if false; // Los pedidos no se pueden modificar
+    }
+    
+    // Reglas para usuarios
+    match /users/{userId} {
+      allow read, write: if request.auth != null && request.auth.uid == userId;
+    }
+  }
+}
