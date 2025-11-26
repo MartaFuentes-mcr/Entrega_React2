@@ -90,6 +90,20 @@ const SAMPLE_PRODUCTS: Product[] = [
   },
 ]
 
+// Generar rutas estáticas para todos los productos
+export function generateStaticParams() {
+  return [
+    { id: '1' },
+    { id: '2' },
+    { id: '3' },
+    { id: '4' },
+    { id: '5' },
+    { id: '6' },
+    { id: '7' },
+    { id: '8' },
+  ]
+}
+
 const PRODUCT_DESCRIPTIONS: Record<string, string> = {
   "1": "El Vaper Pro X1 es nuestro dispositivo insignia, diseñado para vapeo de alto rendimiento. Con tecnología de última generación, batería de larga duración y control de temperatura preciso, ofrece una experiencia premium inigualable.",
   "2": "Disfruta del sabor tropical del mango maduro en cada calada. Nuestro e-liquid premium está elaborado con ingredientes de la más alta calidad, proporcionando un sabor auténtico y una producción de vapor excepcional.",
