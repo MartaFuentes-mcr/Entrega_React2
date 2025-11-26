@@ -76,7 +76,7 @@ node_modules/
 
 # next.js
 /.next/
-/out/
+# /out/ - Comentado para Firebase Hosting
 
 # production
 /build
