@@ -1,4 +1,5 @@
-import { ProductPageClient, SAMPLE_PRODUCTS } from "@/components/product-page-client"
+import { ProductPageClient } from "@/components/product-page-client"
+import { SAMPLE_PRODUCTS } from "@/lib/products"
 
 // Generar rutas estáticas para todos los productos
 export function generateStaticParams() {
